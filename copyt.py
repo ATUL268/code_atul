@@ -3,7 +3,7 @@ from kite_trade import *
 import pdb
 
 
-secret_key_DA3168 = "M6T4JEDJ4L53DHTVQRXZPU3OHDZ3MT7Y"
+secret_key_DA3168 = "4JEDJ4L53DHTVQRXZPU3OHDZ3MT7Y"
 totp_DA3168 = pyotp.TOTP(secret_key_DA3168).now()
 totp_DA3168 = str(totp_DA3168)
 print(totp_DA3168) 
